@@ -6,8 +6,21 @@
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-
+<header>  <h1>ANALIZADOR DE TEXTO</h1>  </header>
 <body>
-  <script src="index.js" type="module"></script>
-</body>
+    <ul>
+          <li class="cuadro" data-testid="word-count">Recuento de palabras: </li>
+          <li class="cuadro" data-testid="character-count">Recuento de caracteres: </li>
+          <li class="cuadro" data-testid="character-no-spaces-count">Recuento de caracteres excluyendo espacios y signos de puntuación: </li> 
+          <li class="cuadro" data-testid="word-length-average">Longitud media de palabras: </li>
+          <li class="cuadro" data-testid="number-count">Recuento de números: </li>
+          <li class="cuadro" data-testid="number-sum">Suma total de números: </li>
+         
+     </ul>
+    <p><textarea name="user-input" cols="70" rows="10" placeholder="Escribe tu texto..." ></textarea></p>
+    <div><button id="reset-button">Limpiar</button></div> 
+    <script src="index.js" type="module"></script>
+
+    <footer><p>Autor: Camila Preciado</p></footer>
+ </body>
 </html>
