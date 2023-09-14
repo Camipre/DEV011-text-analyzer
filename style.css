@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Mochiy Pop One';
+
+}
+/*cuerpo de fondo */
+body{
+  margin: 1rem; 
+  background-image: url("IMAGENES/fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;    
+    
+}
+     /* PANTALLA INICIO */
+header{
+    width: fit-content;
+    margin: 30px auto;
+    border-radius: 40%;
+    box-shadow: 2px 2px 0 #72353a;
+    padding: 10px 40px;
+    color: #258d5d 
+}
+/* put each textarea on its own row */
+ 
+   footer{ width: fit-content;
+     text-align: center;
+     margin: 40px auto;
+   }
+  textarea[name="user-input"]{
+    color: #72353a;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+p{
+    width: fit-content;
+    backdrop-filter: blur(15px);
+    margin: 40px auto;
+    border-radius: 0px;
+    box-shadow: 5px 5px  #41a788;
+    padding: 10px 10px;
+    text-align: center;
+    font-size: 10px;   
+}
+.cuadro{ width: fit-content;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    box-shadow: 2px 2px  #41a788;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 15px;   }
+
+div {
+    display: flex;
+    justify-content: center;
+  }
+#reset-button:hover{
+    transform: scale(1.1);
+}
+#reset-button{
+    text-align: center;
+    width: 10vw;
+    margin: auto; 
+}
